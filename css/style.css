@@ -92,6 +92,9 @@ footer {
     margin-left: 25;
     margin-left: 5%;
 }
+a {
+    text-decoration: none;
+}
 .backtotop,
 .nametext {
     margin-bottom: 5%;
@@ -161,7 +164,7 @@ footer {
         height: 5rem;
         justify-content: center;
     }
-    div #portfolio{
+    div#portfolio{
         margin: 0px;
     }
     .portfolio-center {
@@ -188,11 +191,12 @@ footer {
     #contact {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .name {
+        min-width: 10vh;
+        font-size: 1.3rem;
         margin-right: auto;
-        font-size: 1.5rem;
         
     }
 }
