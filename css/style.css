@@ -80,16 +80,15 @@ footer {
 
 .footerbottom {
     display: flex;
+    justify-content: space-between;
 }
 
 .backtotop {
     font-weight: bolder;
     margin-right: 5%;
-    margin-left: 40%;
 }
 .nametext {
     font-weight: bolder;
-    margin-left: 25;
     margin-left: 5%;
 }
 a {
@@ -104,16 +103,19 @@ a {
 
 @media screen and (min-width: 768px)  {
     
-    .main-nav,
     .item,
     #contact {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    .name {
-        min-width: 100vh;
+   
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
+    
     .item a {
         background-color: whitesmoke;
     }
@@ -126,7 +128,6 @@ a {
         flex-direction: row-reverse;
     }
     .profile-image {
-        min-width: 30vh;
         margin: auto;
     }
 
@@ -144,10 +145,6 @@ a {
     .calculator {
         flex: 1 45%;
         margin: 0.4rem;
-    }
-    .phone,
-    .email {
-        min-width: 100vh
     }
     
 }
@@ -186,7 +183,6 @@ a {
         margin: 2rem;
     }
         
-    .main-nav,
     .item,
     #contact {
         display: flex;
@@ -194,9 +190,18 @@ a {
         justify-content: space-between;
     }
     .name {
-        min-width: 10vh;
-        font-size: 1.3rem;
-        margin-right: auto;
+         font-size: 1.3rem;
+         text-align: left;
         
+    }
+    .header-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-nav,
+    .item-3 a {
+        margin-right: 0;
+        padding-right: 0;
     }
 }
