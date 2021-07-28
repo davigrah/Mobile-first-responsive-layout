@@ -3,19 +3,17 @@
 }
 header {
     background-color: whitesmoke;
-    width:
 }
 .name {
+    padding: 2rem;
     margin: 0;
 }
 .main-nav,
-.item {
+.item,
+#contact {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-}
-.main-nav {
-    padding: 1rem;
 }
 .item a {
     color: black;
@@ -24,7 +22,12 @@ header {
     background-color:white;
     text-align: center;
     text-decoration: none;
+    font-weight: bolder;
 }
+.main-nav {
+    padding: 0 1rem;
+}
+
 img {
     max-width: 100%;
 }
@@ -37,23 +40,59 @@ body {
 	line-height: 1.6;
 	color: #3a3a3a;
     text-align: center;
-    margin: 8px;
+    margin: 0px;
+}
+.description {
+    margin: 1rem;
+    padding-bottom: 2rem;
+}
+#portfolio {
+    margin: 3rem;
+}
+main {
+    margin: 2rem; 
+}
+p {
+    margin: 1rem 0 4rem 0;
+}
+h3 {
+    margin: 3rem 0 0.9rem 0;
+    font-weight: bold;
+}
+footer {
+    background: whitesmoke;
+}
+.text {
+    margin: 1rem;
+}
+.phone {
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+.email {
+    margin-top: 1rem;
+    margin-bottom: 10%;
+    font-weight: bolder;
+}
+.footerbottom {
+    display: flex;
 }
 
-.portifolio,
-.marketing-page,
-.search-page,
-.travel-app,
-.map-of-favorite-spots,
-.photo-galery,
-.calculator,
-.contact {
-    margin: 8px;
+.backtotop {
+    font-weight: bolder;
+    margin-right: 5%;
+    margin-left: 40%;
 }
-
-
-
-
+.nametext {
+    font-weight: bolder;
+    margin-left: 25;
+    margin-left: 5%;
+}
+.backtotop,
+.nametext {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
 
 
 
