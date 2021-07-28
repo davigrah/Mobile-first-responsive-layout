@@ -100,12 +100,16 @@ footer {
 }
 
 @media screen and (min-width: 768px)  {
+    
     .main-nav,
     .item,
     #contact {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+    .name {
+        min-width: 100vh;
     }
     .item a {
         background-color: whitesmoke;
@@ -143,4 +147,52 @@ footer {
         min-width: 100vh
     }
     
+}
+
+@media screen and (min-width: 1024px)  {
+    body, main, header {
+        background-color: whitesmoke;
+        margin: 3.5rem;
+        margin-top: 0;
+    }
+    #portfolio {
+        display: flex;
+        background-color: white;
+        height: 5rem;
+        justify-content: center;
+    }
+    div #portfolio{
+        margin: 0px;
+    }
+    .portfolio-center {
+        align-self: center;
+        margin: 0;
+    }
+    .full-portfolio {
+        background-color: white;
+        border: 0 1rem;
+    }
+    .marketing-page,
+    .search-page,
+    .travel-app,
+    .map-of-favorite-spots,
+    .photo-galery,
+    .calculator,
+    #portfolio {
+        flex: 1 28%;
+        margin: 2rem;
+    }
+        
+    .main-nav,
+    .item,
+    #contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .name {
+        margin-right: auto;
+        font-size: 1.5rem;
+        
+    }
 }
