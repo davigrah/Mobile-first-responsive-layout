@@ -62,19 +62,22 @@ h3 {
 }
 footer {
     background: whitesmoke;
+    
+}
+#contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .text {
     margin: 1rem;
 }
-.phone {
-    margin-top: 2rem;
-    font-weight: bolder;
+.phone,
+.email  {
+    text-align: center;
+    margin: 0.3rem;
 }
-.email {
-    margin-top: 1rem;
-    margin-bottom: 10%;
-    font-weight: bolder;
-}
+
 .footerbottom {
     display: flex;
 }
@@ -134,6 +137,10 @@ footer {
     .calculator {
         flex: 1 45%;
         margin: 0.4rem;
+    }
+    .phone,
+    .email {
+        min-width: 100vh
     }
     
 }
