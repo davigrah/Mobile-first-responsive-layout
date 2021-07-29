@@ -167,6 +167,26 @@ a {
     .nametext {
         display: none;
     }
+    .footer-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .footer-nav ul {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        padding: 2rem;
+        
+    }
+    .contact-footer-nav,
+    .porfolio-footer-nav,
+    .home-footer-nav {
+        display: inline-flex;
+        margin-left: 20px;
+    }
 }
 
 @media screen and (min-width: 1024px)  {
