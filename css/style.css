@@ -178,15 +178,16 @@ a {
         display: flex;
         list-style: none;
         flex-direction: row;
-        padding: 2rem;
         
     }
-    .contact-footer-nav,
-    .porfolio-footer-nav,
-    .home-footer-nav {
-        display: inline-flex;
-        margin-left: 20px;
+    a {
+        padding: 15px;
     }
+    #contact {
+        background-color: whitesmoke;
+        margin: 0;
+    }
+
 }
 
 @media screen and (min-width: 1024px)  {
@@ -219,7 +220,7 @@ a {
     .photo-galery,
     .calculator,
     #portfolio {
-        flex: 1 28%;
+        flex:  27%;
         margin: 2rem;
     }
         
@@ -238,6 +239,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
     .main-nav,
     .item-3 a {
@@ -247,16 +249,6 @@ a {
     html, body {
         height: 100%;
       }
-      
-    footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: auto;
-        padding: 0 20px;
-        height: 100px;
-    }
-    .backtotop,
     .nametext {
         display: none;
     }
@@ -269,4 +261,20 @@ a {
         flex-direction: row;
         justify-content: space-between;
     }
+    .footer-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .footer-nav ul {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        
+    }
+    a {
+        padding: 15px;
+}
 }
