@@ -106,13 +106,23 @@ a {
     display: none;
 }
 
+a:visited {
+    color: green;
+  }
+  a:hover {
+    color: hotpink;
+  }
+  
+  
+
+
 @media screen and (min-width: 768px)  {
     * {
         margin: 0;
     }
-    /* body {
+    body {
         background-color: whitesmoke;
-    } */
+    }
     .full-portfolio,
     #portfolio-center {
         background-color: white;
@@ -201,6 +211,7 @@ a {
         background-color: white;
         height: 5rem;
         justify-content: center;
+        align-items: center;
     }
     div#portfolio{
         margin: 0px;
