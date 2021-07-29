@@ -93,7 +93,9 @@ footer {
 }
 a {
     text-decoration: none;
-}
+    text-transform: uppercase;
+    color: black;
+  }
 .backtotop,
 .nametext {
     margin-bottom: 5%;
@@ -102,11 +104,22 @@ a {
 }
 
 @media screen and (min-width: 768px)  {
-    
+    * {
+        margin: 0;
+    }
+    /* body {
+        background-color: whitesmoke;
+    } */
+    .full-portfolio,
+    #portfolio-center {
+        background-color: white;
+        margin: 0;
+    }
+
     .item,
     #contact {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
     }
    
@@ -128,7 +141,8 @@ a {
         flex-direction: row-reverse;
     }
     .profile-image {
-        margin: auto;
+        width: 90%;
+        margin: 1rem;
     }
 
     .full-portfolio {
@@ -146,7 +160,9 @@ a {
         flex: 1 45%;
         margin: 0.4rem;
     }
-    
+    .footer-nav {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1024px)  {
@@ -207,11 +223,7 @@ a {
     html, body {
         height: 100%;
       }
-      a {
-        text-decoration: none;
-        text-transform: uppercase;
-        color: black;
-      }
+      
     footer {
         display: flex;
         justify-content: space-between;
