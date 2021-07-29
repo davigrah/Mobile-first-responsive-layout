@@ -260,8 +260,7 @@ a:visited {
     .html,
     .css,
     .javascript {
-        flex:  27%;
-        margin: 2rem;
+        flex: calc(33.333% - 40px);
     }
     .javascript-image {
         width: 60%;
