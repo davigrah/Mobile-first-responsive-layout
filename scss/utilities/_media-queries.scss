@@ -1,0 +1,201 @@
+
+@media screen and (min-width: 768px)  {
+    * {
+        margin: 0;
+    }
+    body {
+        background-color: whitesmoke;
+    }
+    .full-portfolio,
+    #portfolio-center {
+        background-color: white;
+        margin: 0;
+    }
+
+    .item,
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .item a {
+        background-color: whitesmoke;
+    }
+    .name {
+        padding: 1rem;
+        margin: 0;
+    }
+    .profile-description {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .profile-image {
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .full-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        flex-direction: row;
+    }
+    main {
+        background-color: white;
+    }
+    .marketing-page,
+    .search-page,
+    .travel-app,
+    .map-of-favorite-spots,
+    .photo-galery,
+    .calculator {
+        flex: 1 45%;
+        margin: 0.4rem;
+    }
+
+   .full-skills {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        flex-direction: row;
+   }
+   .html,
+   .css,
+   .javascript {
+        flex: 1 45%;
+        margin: 0.4rem;
+   }
+   .javascript-image {
+       width: 30%;
+   }
+    .backtotop,
+    .nametext {
+        display: none;
+    }
+    .footer-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .footer-nav ul {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        
+    }
+    a {
+        padding: 15px;
+    }
+    #contact {
+        background-color: whitesmoke;
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 1024px)  {
+    body, header {
+        background-color: whitesmoke;
+        margin: 3.5rem;
+        margin-top: 0;
+    }
+    main {
+        background-color: white;
+    }
+    #portfolio {
+        display: flex;
+        background-color: white;
+        height: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    div#portfolio{
+        margin: 0px;
+    }
+    .portfolio-center {
+        align-self: center;
+        margin: 0;
+    }
+    .full-portfolio {
+        background-color: white;
+        border: 0 1rem;
+    }
+    .marketing-page,
+    .search-page,
+    .travel-app,
+    .map-of-favorite-spots,
+    .photo-galery,
+    .calculator,
+    #portfolio,
+    .html,
+    .css,
+    .javascript {
+        flex: calc(33.333% - 40px);
+    }
+    .javascript-image {
+        width: 60%;
+    }
+        
+    .item,
+    #contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .name {
+         font-size: 1.3rem;
+         text-align: left;
+        
+    }
+    .header-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-nav,
+    .item-3 a {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    html, body {
+        height: 100%;
+      }
+    .nametext {
+        display: none;
+    }
+    .item{
+        display: inline-block;
+        margin-left: 20px;
+      }
+      .header-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .footer-nav ul {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        
+    }
+    a {
+        padding: 15px;
+}
+}

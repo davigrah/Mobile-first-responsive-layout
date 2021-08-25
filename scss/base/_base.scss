@@ -1,0 +1,40 @@
+header {
+    background-color: whitesmoke;
+}
+main {
+    margin: 2rem; 
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    &:visited {
+        color: green;
+    }
+    &:hover {
+        color: hotpink;
+      }
+  }
+.backtotop,
+.nametext {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.backtotop {
+    font-weight: bolder;
+    margin-right: 5%;
+}
+.nametext {
+    font-weight: bolder;
+    margin-left: 5%;
+}
+.footer-nav {
+    display: none;
+}
+.footerbottom {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background: whitesmoke;
+}

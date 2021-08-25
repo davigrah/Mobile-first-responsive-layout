@@ -1,0 +1,28 @@
+img {
+    max-width: 100%;
+    transition: transform 0.5s;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.profile-image {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.description {
+    margin: 1rem;
+    padding-bottom: 2rem;
+}
+#portfolio-text {
+    margin: 3rem;
+}
+main {
+    margin: 2rem; 
+}
+.html-image,
+.css-image,
+.javascript-image {
+    width: 60%;
+}

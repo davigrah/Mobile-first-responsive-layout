@@ -1,0 +1,14 @@
+
+#contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text {
+    margin: 1rem;
+}
+.phone,
+.email  {
+    text-align: center;
+    margin: 0.3rem;
+}
